@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+}
+.body{
+    background-color: rgb(20, 151, 228);
+    
+}
+
+
+/*------Navegador------*/
+
+.nav-bar , .footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px ;
+    background-color: white
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.menú{
+    width: 600px; /*acordate de colocar los px en el width*/
+    display:flex;
+    justify-content: space-around;
+}
+
+.item-menú  /*,.item-prueba*/ {
+    list-style-type:none /*le saco los circulitos del item|| para agregar mas de una class, debo colocar la coma "," entre ellas.*/
+}
+
+.item-link{
+    text-decoration: none;
+    box-shadow: 3px 4px gray ;
+    background-color: black;
+    color: rgb(7, 248, 87);
+    padding:10px;
+    border-radius: 3px;
+    font-weight: 1000; /* al aumentar el font-weith, debo aumentar el with para que queden correctamente separados*/
+
+}
+
+/*------Header------*/
+
+.título-principal{
+    display:flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(7, 248, 87);
+    font-size: 45px;
+    padding:30px;
+}
+
+.título-secundario{
+    padding:20px;
+    margin:0px;
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+.imagen-principal{
+    display: flex;
+    justify-content: center;
+}
+
+/* el justify-content y el aling-itemns,son propiedades para ubicar dentro de nuestra pagina web, a los contenedores hijos, por ende, en este caso la class, debe ir en el div, y asi al utilizar las propiedades del flexbox, se puede ubicar nuestra imagen en el centro de la pagina, como quiero.*/
+
+/*------Main------*/
+
+
+.contenedor-padre{
+    margin:50px;
+    text-indent: 10px;
+
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.contenedor-imagen{
+    display:flex;
+    justify-content: center;
+}
+
+.imagen-secundaria{
+    width: 500px;
+    height: 250px;
+}
+
+.contenedor-imagen{
+    display:flex;
+    justify-content: center;
+}
+.imagen-carrera{
+    width:500px;
+    
+}
+
+.menú-prueba{
+    margin:50px 5px;
+}
+
+.item-prueba{
+    margin: 20px;
+    font-size: 18px; 
+}
+.link-prueba{
+    font-size:25px;
+    text-decoration:underline;
+}
+
+texto.prueba{
+    font-size: 20px;
+}
+/*------Footer------*/
+
+.footer{
+    height: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+/* .nav-bar y .footer, comparten algunas propiedades
+    .item-menú e item-prueba, tambien comparten algunas propiedades
+*/
+
+/*------Video------*/
+
+.contenedor-video{
+    display:flex;
+    justify-content: center;
+}
+
+video{
+
+    width:600px;
+}
+
+/* acordate que para poder ubicar los videos en el centro de la pagina, primero tenes que crear un div, que sirva como contenedor padre para la etiqueta de video o de audio, y luego aplicar el display:flex, con las propiedades correspondientes.*/
